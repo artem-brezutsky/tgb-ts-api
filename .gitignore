@@ -1,3 +1,28 @@
-.idea
-.vscode
-dist
+# Node.js зависимости
+node_modules/
+package-lock.json
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Компилированные файлы TypeScript
+dist/
+
+# Конфигурационные файлы среды
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Кэш и временные файлы
+.cache/
+*.tsbuildinfo
